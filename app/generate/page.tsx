@@ -162,7 +162,7 @@ const Footer = () => (
           target="_blank"
           className="hover:text-primary transition-colors"
         >
-          <Icon className="size-5" />
+          {/* <Icon className="size-5" /> */}
         </Link>
       ))}
     </div>
