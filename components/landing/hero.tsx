@@ -24,9 +24,9 @@ export default function Hero() {
           )}
         >
           <AnimatedShinyText className="inline-flex items-center justify-center px-3 py-0.5">
-            <span>✨ Powered by <Link href="https://dub.sh/nebius" target="_blank">
-            Nebius AI</Link></span>
-            <ArrowRightIcon className="ml-1 size-2.5 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+            {/* <span>✨ Powered by <Link href="https://dub.sh/nebius" target="_blank">
+            Nebius AI</Link></span> */}
+            {/* <ArrowRightIcon className="ml-1 size-2.5 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" /> */}
           </AnimatedShinyText>
         </div>
           <Gradient />
@@ -57,7 +57,7 @@ export default function Hero() {
             <SignedIn>
               <Link href="/generate" className="w-full md:w-auto">
                 <Button className="h-8 w-full px-6 py-5 transition-all hover:opacity-90 hover:scale-105">
-                  Try for free! <IconPointerFilled className="w-4 h-4" />
+                  Generate! <IconPointerFilled className="w-4 h-4" />
                 </Button>
               </Link>
             </SignedIn>
@@ -68,18 +68,18 @@ export default function Hero() {
                 mode="modal"
               >
                 <Button className="h-8 w-full px-6 py-5 transition-all hover:opacity-90 hover:scale-105">
-                  Try for free! <IconPointerFilled className="w-4 h-4" />
+                  Generate! <IconPointerFilled className="w-4 h-4" />
                 </Button>
               </SignInButton>
             </SignedOut>
             <Link href="/gallery" className="w-full md:w-auto">
-              <Button
+              {/* <Button
                 variant="outline"
                 className="h-8 w-full px-6 py-5 transition-all hover:shadow-[0_0_20px_2px_hsl(var(--primary))]"
               >
                 See Examples{" "}
                 <IconSparkles className="fill-[hsl(var(--primary))] text-primary dark:fill-[hsl(var(--foreground))] dark:text-foreground" />
-              </Button>
+              </Button> */}
             </Link>
           </div>
           <LogoCarousel />

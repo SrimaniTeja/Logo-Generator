@@ -77,26 +77,26 @@ export default function Footer() {
               </div>
               <div className="flex gap-4 items-center justify-center">
                 <Link 
-                  href="https://git.new/Arindam" 
+                  href="https://github.com/SrimaniTeja/Logo-Generator" 
                   target="_blank" 
                   className="hover:text-primary transition-colors"
                 >
                   <IconBrandGithub className="size-5 md:size-8" />
                 </Link>
-                <Link 
+                {/* <Link 
                   href="https://dub.sh/arindam-linkedin" 
                   target="_blank"
                   className="hover:text-primary transition-colors"
                 >
                   <IconBrandLinkedin className="size-5 md:size-8" />
-                </Link>
-                <Link 
+                </Link> */}
+                {/* <Link 
                   href="https://dub.sh/arindam-x" 
                   target="_blank"
                   className="hover:text-primary transition-colors"
                 >
                   <IconBrandX className="size-5 md:size-8" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
