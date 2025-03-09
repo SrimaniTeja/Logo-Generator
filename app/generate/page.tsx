@@ -140,7 +140,7 @@ const Footer = () => (
     </div>
 
     <div className="px-4 py-2 text-sm">
-      Made with ❤️ by{" "}
+      
       <Link 
         href="https://github.com/arindamcodes" 
         target="_blank"
@@ -543,11 +543,12 @@ export default function Home() {
                       className="aspect-square rounded-2xl"
                       style={{ backgroundColor }}
                     >
-                      <img
-                        src={generatedLogo}
-                        alt="Generated logo"
+                      <img 
+                        src={generatedLogo || "/placeholder.png"} 
+                        alt="Generated logo" 
                         className="w-full h-full rounded-2xl object-contain"
-                      />
+/>
+
                     </div>
                     <div className="flex gap-3">
                       <Button

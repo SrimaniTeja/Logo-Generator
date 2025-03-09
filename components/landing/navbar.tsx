@@ -44,11 +44,11 @@ export default function Navbar() {
           </SignedOut>
           <SignedIn>
             <UserButton />
-            {/* <Link href="/generate">
+            <Link href="/generate">
               <Button className="text-white">
                 Get Started
               </Button> 
-            </Link> */}
+            </Link>
           </SignedIn>
         </div>
       </nav>
