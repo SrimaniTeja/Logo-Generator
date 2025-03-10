@@ -297,10 +297,10 @@ export default function Home() {
               in minutes .
             </span>
           </div>
-          <Button onClick={() => router.push("/history")} className="w-fit">
+          {/* <Button onClick={() => router.push("/history")} className="w-fit">
             <IconHistory className="w-4 scale-y-[-1] h-4" />
             History
-          </Button>
+          </Button> */}
         </div>
         <div className="grid grid-cols-1 relative lg:grid-cols-2 gap-8">
           {/* Left Column */}
