@@ -96,6 +96,7 @@ export async function generateLogo(formData: z.infer<typeof FormSchema>) {
     });
 
     const imageUrl = response.data[0].url || "";
+    console.log(imageUrl)
 
     const DatabaseData: InsertLogo = {
       image_url: imageUrl,
@@ -105,12 +106,12 @@ export async function generateLogo(formData: z.infer<typeof FormSchema>) {
       userId: user.id,
     };
 
-    try {
-      await db.insert(logosTable).values(DatabaseData);
-    } catch (error) {
-      console.error('Error inserting logo into database:', error);
-      throw error;
-    }
+      // try {
+      //   await db.insert(logosTable).values(DatabaseData);
+      // } catch (error) {
+      //   console.error('Error inserting logo into database:', error);
+      //   throw error;
+      // }
     
     return { 
       success: true, 
